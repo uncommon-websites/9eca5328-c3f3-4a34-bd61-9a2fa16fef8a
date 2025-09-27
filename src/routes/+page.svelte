@@ -29,37 +29,35 @@
 />
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Arjun Patel",
+			position: "Senior Full-Stack Developer",
+			company: "StreamFlow Analytics",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before Fous, I was spending 3 weeks building custom connectors for every new API integration. Now I can connect any service in minutes. We've reduced our integration timeline from weeks to hours - that's saved us over $50K in development costs this quarter alone.",
+			image: "/generated/image-candid-environmental-portrait-of-a-confi.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Keisha Williams",
+			position: "Engineering Lead",
+			company: "Velocity Labs",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Our startup needed to integrate 15 different APIs for our MVP. Fous eliminated the risk of integration failures that could have delayed our launch by months. Instead of managing 15 different authentication systems and rate limits, we have one unified interface. Game changer.",
+			image: "/generated/image-documentary-style-headshot-of-a-confiden.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Carlos Rodriguez",
+			position: "Technical Co-founder",
+			company: "DataSync Pro",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We were burning through our runway building API wrappers instead of our core product. Fous gave us back 40 hours per week that we now spend on features customers actually want. The unified error handling alone has prevented countless production issues.",
+			image: "/generated/image-authentic-candid-headshot-of-a-confident.webp"
 		}
 	]}
 />
