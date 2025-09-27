@@ -26,10 +26,9 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="One interface to rule APIs"
+	subtitle="Goodbye boilerplate. Hello flow."
+	imageSrc="/generated/image-a-candid-documentary-style-photo-of-a-di.webp"
 />
 
 <!-- Story Section -->
