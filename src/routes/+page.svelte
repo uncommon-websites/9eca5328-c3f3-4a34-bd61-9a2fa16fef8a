@@ -6,16 +6,27 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Stop building API connectors. Start building features."
+	subtitle="Fous transforms scattered API integrations into unified workflows through a single powerful interface. Spend less time on boilerplate, more time on what matters."
+	imageSrc="/generated/image-a-candid-documentary-style-photograph-of.webp"
+	callsToAction={[
+		{ href: "#demo", label: "Try demo" },
+		{ href: "#docs", label: "View docs" }
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/shopify.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/discord.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/vercel.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
